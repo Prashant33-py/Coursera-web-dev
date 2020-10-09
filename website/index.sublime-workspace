@@ -1,0 +1,524 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"col-md-6",
+				"col-md-6 \tBootstrap 4 Class"
+			],
+			[
+				"htm",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"align",
+				"align-self\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\t(bootstrap.css)"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"hidd",
+				"hidden-xs\tabc"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"colla",
+				"collapse\t(bootstrap.css)"
+			],
+			[
+				"coll",
+				"collapsing\t(bootstrap.css)"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"bord",
+				"border\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"boot",
+				"bootstrap.min.css\tabc"
+			],
+			[
+				"bootstrap",
+				"bootstrap-4.5.2-dist\tabc"
+			],
+			[
+				"he",
+				"head\tTag"
+			],
+			[
+				"ali",
+				"text-align\tproperty"
+			],
+			[
+				"bor",
+				"border-box\tbox-sizing"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"i",
+				"id\tAttr"
+			],
+			[
+				"h",
+				"http-equiv\tAttr"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"r",
+				"row"
+			],
+			[
+				"c",
+				"content\tAttr"
+			],
+			[
+				"s",
+				"side"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"flex",
+				"flex\tproperty"
+			],
+			[
+				"fle",
+				"flex-wrap\tproperty"
+			],
+			[
+				"in",
+				"initial-scale"
+			],
+			[
+				"de",
+				"device-width"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"col-md",
+				"col-md-3"
+			],
+			[
+				"col-l",
+				"col-lg-3"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"m",
+				"min-width\tproperty"
+			],
+			[
+				"D",
+				"DEB887"
+			],
+			[
+				"A",
+				"A52A2A"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"p",
+				"p1"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"l",
+				"lang\tAttr"
+			],
+			[
+				"backgro",
+				"background-position\tproperty"
+			],
+			[
+				"b",
+				"bg"
+			],
+			[
+				"e",
+				"en"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"bacl",
+				"background-color\tproperty"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"ls",
+				"list-style\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"re",
+				"release\tfunction"
+			],
+			[
+				"wa",
+				"waitKey\tfunction"
+			],
+			[
+				"COLOR_",
+				"COLOR_BGR2GRAY\tinstance"
+			],
+			[
+				"CAP",
+				"CAP_PROP_FRAME_WIDTH"
+			],
+			[
+				"ca",
+				"cap\tstatement"
+			],
+			[
+				"Vi",
+				"VideoCapture\tclass"
+			],
+			[
+				"LINE",
+				"LineSegmentDetector\tclass"
+			],
+			[
+				"dest",
+				"destroyAllWindows\tfunction"
+			],
+			[
+				"V",
+				"VideoWriter_fourcc\tfunction"
+			],
+			[
+				"des",
+				"destroyAllWindows\tfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Prashant/coursera-html/website/another.html",
+		"/C/Users/Prashant/coursera-html/website/bootstrap-4.5.2-dist/css/bootstrap.css",
+		"/C/Users/Prashant/coursera-html/website/prac.html",
+		"/D/Files/Module 2 Solution.html",
+		"/C/Users/Prashant/coursera-html/website/ippracs.html",
+		"/C/Users/Prashant/coursera-html/website/bootstrap-4.5.2-dist/js/bootstrap.js",
+		"/C/Users/Prashant/coursera-html/website/index.html",
+		"/C/Users/Prashant/coursera-html/website/bootstrap-4.5.2-dist/css/bootstrap.min.css",
+		"/C/Users/Prashant/coursera-html/website/bootstrap-4.5.2-dist/css/style.css",
+		"/C/Users/Prashant/coursera-html/website/bootstrap-4.5.2-dist/css/bootstrap.css.map",
+		"/C/Users/Prashant/coursera-html/module 2 assignment/module_2_assignment.css",
+		"/C/Users/Prashant/coursera-html/module 2 assignment/module_2_assignment.html",
+		"/C/Users/Prashant/coursera-html/website/bootstrap-4.5.2-dist/js/bootstrap.min.js",
+		"/C/Users/Prashant/coursera-html/website/bootstrap-4.5.2-dist/css/projcss.css",
+		"/C/Users/Prashant/coursera-html/website/base.html",
+		"/C/Users/Prashant/coursera-html/website/project.html",
+		"/C/Users/Prashant/coursera-html/website/bootstrap-4.5.2-dist/js/script.js",
+		"/C/Users/Prashant/coursera-html/website/basic.css",
+		"/C/Users/Prashant/coursera-html/website/external.css",
+		"/C/Users/Prashant/coursera-html/website/style.css",
+		"/C/Users/Prashant/coursera-html/website/youtube.html",
+		"/C/Users/Prashant/coursera-html/website/html pracs.html",
+		"/C/Users/Prashant/coursera-html/website/html.html",
+		"/C/Users/Prashant/coursera-html/website/html pracs",
+		"/C/Users/Prashant/coursera-html/website/abc.html",
+		"/D/Programs/basic.py",
+		"/D/Programs/start.py",
+		"/C/Users/Prashant/AppData/Roaming/Sublime Text 3/Packages/User/Python_Run.sublime-build"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Python_Run.sublime-build",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

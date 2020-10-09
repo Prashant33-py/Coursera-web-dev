@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>An online chatroom</title>
+	<link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.css">
+	<link rel="stylesheet" href="bootstrap-4.5.2-dist/css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<div>
+						<img src="C:/Users/Prashant/coursera-html/website/globe-logo.png" alt="Logo Image" id="imgdet">
+					</div>
+					<div class="navbar-brand">
+						<h1>Chatroom</h1>
+						<p>A place where we can share</p>
+					</div>
+				</div>
+				<div>
+					<form class="formstyle">
+  						<table>
+  							<tr>
+  								<td>
+  									Email
+  								</td>
+  								<td>
+  									<input type="text" id="email" placeholder="Name" name="email"><br>
+  								</td>
+  							</tr>
+  							<tr>
+  								<td>
+  									Password
+  								</td>
+  								<td>
+  									<input type="password" id="password" placeholder="Password" name="password">
+  								</td>	
+  							</tr>
+  						</table>
+  						<button name="login">Log In</button>
+					</form>
+				</div>
+			</div>
+			
+		</nav>
+	</header><!-- /header -->
+
+	<div>
+		<div class="bodycontainer">
+			<img src="people.jpg" alt="People connecting">
+		</div>
+		<div class="vertline"></div>
+		<div class="cracc">
+			<form>
+				<table>
+					<h1 style="text-align: center;">Create a new account</h1>
+					<tr>
+						<td>Name</td>
+						<td><input type="name" name="Name" id="name" placeholder="Name"></td>
+					</tr>
+					<tr>
+						<td>Email-id</td>
+						<td> <input type="email" name="Email" id="email" placeholder="Email-id"></td>
+					</tr>
+					<tr>
+						<td>New Password</td>
+						<td> <input type="password" name="Password" id="password" placeholder="New Password"> </td>
+					</tr>
+					<tr>
+						<td>Confirm Password</td>
+						<td> <input type="password" name="Password" id="password" placeholder="Confirm Password"> </td>
+					</tr>
+				</table>
+			</form>
+			<input type="checkbox" name="confirmpassword" id="confirmpassword"><label for="confirmpassword" style="margin-left: 5px; text-align: center;">Show password</label>
+			<button name="createanaccount" id="createbutton">Create an account</button>
+		</div>
+	</div>
+
+
+
+
+	<script src="bootstrap-4.5.2-dist/js/jquery-3.5.1"></script>
+	<script src="bootstrap-4.5.2-dist/js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

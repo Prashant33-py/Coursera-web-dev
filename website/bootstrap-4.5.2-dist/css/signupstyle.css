@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+  background-color: #ffffff;
+}
+#header-nav{
+  background-color: #1e3787;
+  display: block;
+}
+#logoimg img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  margin-top: auto;
+}
+#logoimg h1{
+	color: white;
+	font-size: 3.5em;
+	text-align: center;
+	margin: 0;
+	text-shadow: 2px 2px 5px #000;
+}
+#logoimg p{
+  text-align: center;
+  color: white;
+  margin: 0;
+  text-shadow: 2px 2px 5px #000;
+}
+/*END OF HEADER*/
+.signup{
+    text-align: center;
+    width: 500px;
+    border: 0;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 65px auto 0 auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.signup h1{
+  margin-bottom: 20px;
+}
+#separation{
+  border-top: 1.5px solid gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  width: 300px;
+}
+.formstyle input{
+  border-radius: 5px;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#buttons{
+  margin-top: 30px;
+}
+#registerbutton:link, #registerbutton:visited{
+    background-color: #49E20E;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    transition: .3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+#registerbutton:hover{
+  background-color: #FF5721;
+}
+footer{
+  text-align: center;
+  margin-top: 50px;
+}

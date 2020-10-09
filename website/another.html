@@ -1,0 +1,743 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Internal links</title>
+</head>
+<body>
+	<h1>Internal links</h1>
+	<section>
+		<p>
+		Let's link to a facebook fan page they created for the course!
+		
+		<a href="http://www.facebook.com/CourseraWebDev" title="Like our page">COurse facebook page</a>
+		</p>
+	</section>
+</body>
+</html> -->
+
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Displaying images</title>
+	<style>
+	p{
+		color: blue;
+		text-align: center;
+	}
+	h1{
+		color: rgb(237,200,255);
+		font-style: italic;
+		text-align: center;
+		font-size: 60px;
+	}
+	h2.big{
+		font-size: 50px;
+		text-align: center;
+	}
+	#highlight{
+		color: rgb(255,0,255);
+		font-size: 30px;
+		background: rgb(0,0,225);
+	}
+	.good{
+		color: red;
+		font-size: 25px;
+		text-align: center;
+	}
+	</style>
+
+</head>
+<body>
+	<h1>My biodata</h1>
+	<p >My name is <span class="good">Prashant</span> and now currently I am learning a course on coursera. From there I learned to display pictures.</p>
+	<h2 class="big">Heading 2</h2>
+	<p>Another paragraph with absolutely <span id="highlight">nothing</span>!!!</p>
+
+</body>
+</html>
+end-->
+
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pseudo selector class</title>
+	<style>
+		header li{
+			list-style: none;
+		}
+		a:link, a:visited{
+			text-decoration: none;
+			background-color: green;
+			border: 1px solid blue;
+			color: white;
+			display: block;
+			width: 150px;
+			text-align: center;
+			margin-bottom: 1px
+
+		} 
+		a:hover, a:active{
+			background-color: red;
+			color: purple;
+		}
+		header li:nth-child(3){
+			font-size: 25px;
+		}
+		section div:nth-child(odd){
+			background-color: gray;
+			width: 100px;
+		}
+		section div:nth-child(4):hover{
+			background-color: red;
+			width: 100px;
+
+		}
+	</style>
+</head>
+<body>
+	<h1>Pseudo selector class</h1>
+<header>
+<ul>
+	<li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+	<li><a href="https://www.instagram.com/?hl=en" target="_blank">Instagram</a></li>
+	<li><a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a></li>
+</ul>
+</header>
+
+<section>
+	<div>Div 1</div>
+	<div>Div 2</div>
+	<div>Div 3</div>
+	<div>Div 3</div>
+	<div>Div 4</div>
+	<div>Div 5</div>
+	<div>Div 6</div>
+	<div>Div 7</div>
+	<div>Div 8</div>
+	<div>Div 9</div>
+	<div>Div 10</div>
+</section>
+</body>
+</html>
+end-->
+
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Style placement</title>
+	<link rel="stylesheet" href="basic.css">
+	<style>
+		h2{
+			color: maroon;
+		}
+	</style>
+</head>
+<body>
+<h1>Style Placement</h1>
+<h2>Sub heading</h2>
+<p>This is to set the style placement of in <span class="special">HTML and CSS</span> in the course which I am learning right now!!!</p>
+<h2>Another sub heading</h2>
+<p style="text-align: center; font-size: 25px;">I am centered</p>
+</body>
+</html>
+end-->
+
+<!-- start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Cascading style sheets</title>
+	<link rel="stylesheet" href="external.css">
+	<style>
+		p{
+			color: maroon;
+		}
+	</style>
+</head>
+<body>
+<h1>Origin example</h1>
+<p>The rule is simple: last declaration wins</p>
+<p style="color: black;">If there is no conflict, declarations merge into one rule.</p>
+</body>
+</html>
+end-->
+
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Cascade of CSS example</title>
+	<style>
+		body{
+			color: red;
+			text-align: center;
+			font-family: Helvetica;
+		}
+		p{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+<h1>Cascading of CSS example</h1>
+<h2>Subheading 1</h2>
+<p>Inheritance allows us to write more global styles on parent elements and then "fine-tune" the styles for some of the child elements as needed. Such approach nakes writing CSS very efficient.</p>
+<h2 style="color: green;">Subheading 2</h2>
+<p>The paragraph I saw on coursera was in different language so I worte a different paragraph of my own. Hope this works!!! </p>
+</body>
+</html>
+end-->
+
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Inheritance of CSS</title>
+	<style>
+		header.navigation p{
+			color: blue;
+		}
+		p.blurb{
+			color: red;
+		}
+		p{
+			color: green !important;
+		}
+	</style>
+</head>
+<body>
+<header class="navigation">
+	<p class="blurb">
+		The paragraph I saw on coursera was in different language so I worte a different paragraph of my own. Hope this works!!!
+	</p>
+</header>
+</body>
+</html>
+end-->
+
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Styling text</title>
+	<style>
+		.style{
+			font-family: Arial,Helvetica,sans-serif;
+			color: #0000ff;
+			font-style: italic;
+			font-weight: bold;
+			font-size: 24px;
+			text-transform: lowercase;
+			text-align: justify;
+		}
+	</style>
+</head>
+<body>
+<p>
+	The paragraph I saw on <span><a href="https://www.coursera.org/programs/k-c-college-of-engg-and-mgmt-studies-on-coursera-rr16x">coursera</a></span> was in different language so I worte a different paragraph of my own. Hope this works!!! 
+</p>
+<p class="style">
+	Yet another paragraph which I am writing because of the different language of coursera
+</p>
+</body>
+</html>
+end-->
+
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Setting font size</title>
+	<style>
+		body{
+			font-size: 120%;
+		}
+	</style>
+</head>
+<body>
+	<div>Regular text</div>
+	<div style="font-size: 2em;">2em text
+		<div style="font-size: 2em;">4em text
+			<div style="font-size: .5em">2em again!!</div>
+		</div>
+	</div>
+</body>
+</html>
+end-->
+<!-- start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>The box model</title>
+	<style>
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: gray;
+		}
+		#box{
+			padding: 10px 10px 10px 10px;
+			border: 5px solid black;
+			margin: 40px;
+			width: 300px;
+			height: 10px;
+			overflow: auto;
+			background-color: blue;
+			margin-top: 50px;
+		}
+		#content{
+			background-color: #90EE90;
+		}
+		h1{
+			margin-bottom: 30px;
+		}
+	</style>
+</head>
+<body>
+<h1>The box model</h1>
+<div id="box">
+	<div id="content">The simplest difference between definition and defination is that definition is used for differences of a particular thing, idea or words while defination means to do something that defies the whole nation.</div>
+</div>
+</body>
+</html>
+end-->
+
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Background</title>
+	<style>
+		#bg{
+			width: 500px;
+			height: 500px;
+			background-color: blue;
+			background-image: url("Prashant.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	</style>
+</head>
+<body>
+<h1>The background property</h1>
+<div id="bg">Background properties are fun!!!!</div>
+</body>
+</html>
+end-->
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Floating Elements</title>
+	<style>
+		div{
+			background-color: #00FFFF;
+		}
+		p{
+			width: 50px;
+			height: 50px;
+			border: 1px solid black;
+		}
+		#p1{
+			background-color: #A52A2A;
+			float: left;
+			height: 150px;
+		}
+		#p2{
+			background-color: #DEB887;
+			float: right;
+			height: 100px;
+		}
+		#p3{
+			background-color: #FF7F50;
+			clear: both;
+		}
+		#p4{
+			background-color: #5F9EA0;
+		}
+		section{
+			clear: left;
+		}
+	</style>
+</head>
+<body>
+<h1>Floating elements</h1>
+<div>
+	<p id="p1"></p>
+	<p id="p2"></p>
+	<p id="p3"></p>
+	<p id="p4"></p>
+	<section>This is regular content continuing after the paragraph</section>
+</div>
+</body>
+</html>
+end-->
+
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Two column design</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		div{
+			/*background-color: #00FFFF;*/
+		}
+		p{
+			width: 50%;
+			/*border: 1px solid black;*/
+			float: left;
+			padding: 10px;
+		}
+		#p1{
+			/*background-color: #A52A2A;*/
+		}
+		#p2{
+			/*background-color: #DEB887;*/
+		}
+		section{
+			clear: left;
+		}
+	</style>
+</head>
+<body>
+<h1>Two column design</h1>
+<div>
+	<p id="p1">The simplest difference between definition and defination is that definition is used for differences of a particular thing, idea or words while defination means to do something that defies the whole nation.</p>
+	<p id="p2">FOB DESTINATION POINT. Implies that the seller owns the goods in transit and is responsible for freight charges and assists with the settlement of claims and is responsible for full replacement of damaged items</p>
+	<section>This is regular content continuing after the paragraph.</section>
+</div>
+</body>
+</html>
+end-->
+
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Positioning Elements</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		h1{
+			margin-bottom: 15px;
+		}
+		div#container{
+			background-color: #00FFFF;
+			position: relative;
+			top: 60px;
+		}
+		p{
+			width: 50px;
+			height: 50px;
+			border: 1px solid black;
+			margin-bottom: 15px;
+		}
+		#p1{
+			background-color: #A52A2A;
+			position: relative;
+			top: 65px;
+			left: 65px;
+		}
+		#p2{
+			background-color: #DEB887;
+		}
+		#p3{
+			background-color: #FF7F50;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		#p4{
+			background-color: #5F9EA0;
+		}		
+	</style>
+</head>
+<body>
+<h1>Positioning Elements</h1>
+<div id="container">
+	<p id="p1"></p>
+	<p id="p2"></p>
+	<p id="p3"></p>
+	<p id="p4"></p>
+</div>
+</body>
+</html>
+end -->
+<!--start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Media Queries</title>
+	<style>
+		/***********base styles***********/
+		h1{
+			margin-bottom: 15px;
+		}
+		p{
+			border: 1px solid black
+			margin-bottom: 15px;
+		}
+		#p1{
+			background-color: #A52A2A;
+			width: 300px;
+			height: 300px;
+		}
+		#p2{
+			background-color: #DEB887;
+			width: 50px;
+			height: 50px;
+		}
+/************* Larger devices only ***************/
+		@media (min-width: 1200px){
+			#p1{
+				width: 80%;
+			}
+			#p2{
+				width: 150px;
+				height: 150px;
+			}
+		}
+
+
+
+/************** Medium devices only *************/
+		@media (min-width: 992px) and (max-width: 1199px){
+			#p1{
+				width: 50%;
+			}
+			#p2{
+				width: 100px;
+				height: 100px;
+			}
+		}
+	</style>
+</head>
+<body>
+<h1>Media Queries</h1>
+
+<p id="p1"></p>
+<p id="p2"></p>
+</body>
+</html>
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Layout</title>
+	<style>
+		/***************base styles*************/
+		*{
+			box-sizing: border-box;
+		}
+		h1{
+			margin-bottom: 15px;
+		}
+		p{
+			border: 1px solid black;
+			background-color: #A52A2A;
+			width: 90%;
+			height: 150px;
+			margin-right: auto;
+			margin-left: auto;
+			font-family: Helvetica;
+			color: white;
+		}
+		/******Simple responsive frame work******/
+		.row{
+			width: 100%;
+		}
+		/******Larger devices only*****/
+		@media (min-width: 1200px){
+			.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,{
+				float: left;
+				border: 1px solid black;
+			}
+			.col-lg-1{
+				width: 8.33%;
+			}
+			.col-lg-2{
+				width: 16.66%;
+			}
+			.col-lg-3{
+				width: 25%;
+			}
+			.col-lg-4{
+				width: 33%;
+			}
+			.col-lg-5{
+				width: 41.66%;
+			}
+			.col-lg-6{
+				width: 50%;
+			}
+			.col-lg-7{
+				width: 58.33%;
+			}
+			.col-lg-8{
+				width: 66.66%;
+			}
+			.col-lg-9{
+				width: 74.99%;
+			}
+			.col-lg-10{
+				width: 83.33%;
+			}
+			.col-lg-11{
+				width: 91.66%;
+			}
+			.col-lg-12{
+				width: 100%;
+			}
+		}
+		/************Medium devices only***********/
+		@media (min-width: 950px) and (min-width: 1199px){
+			.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,{
+				float: left;
+				border: 1px solid green;
+			}
+			.col-md-1{
+				width: 8.33%;
+			}
+			.col-md-2{
+				width: 16.66%;
+			}
+			.col-md-3{
+				width: 25%;
+			}
+			.col-md-4{
+				width: 33%;
+			}
+			.col-md-5{
+				width: 41.66%;
+			}
+			.col-md-6{
+				width: 50%;
+			}
+			.col-md-7{
+				width: 58.33%;
+			}
+			.col-md-8{
+				width: 66.66%;
+			}
+			.col-md-9{
+				width: 74.99%;
+			}
+			.col-md-10{
+				width: 83.33%;
+			}
+			.col-md-11{
+				width: 91.66%;
+			}
+			.col-md-12{
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+<h1>Responsive layout</h1>
+<div class="row">
+	<div class="col-lg-3 col-md-6"><p>Item 1</p></div>
+	<div class="col-lg-3 col-md-6"><p>Item 2. Wow !!!This is cool</p></div>
+	<div class="col-lg-3 col-md-6"><p>Item 3</p></div>
+	<div class="col-lg-3 col-md-6"><p>Item 4</p></div>
+	<div class="col-lg-3 col-md-6"><p>Item 5</p></div>
+	<div class="col-lg-3 col-md-6"><p>Item 6</p></div>
+	<div class="col-lg-3 col-md-6"><p>Item 7</p></div>
+	<div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+	<div class="col-lg-3 col-md-6"><p>Item 9</p></div>
+</div>
+</body>
+</html>
+-->
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>Bootstrap starter page</title>
+	<link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-4.5.2-dist/css/styles.css">
+</head>
+<body>
+	<h1>Hello coursera!!!</h1>
+	<h2>It works!!</h2>
+
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-4.5.2-dist/css/styles.css">
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4">Col 1</div>
+		<div class="col-md-4">Col 2</div>
+		<div class="col-md-4">Col 3</div>
+		<div class="col-md-4 col-sm-6">Col 4</div>
+	</div>
+</div>
+
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

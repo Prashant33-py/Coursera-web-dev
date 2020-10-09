@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+  background-color: #ffffff;
+}
+#header-nav{
+  background-color: #1e3787;
+  display: block;
+}
+#logoimg img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  margin-top: auto;
+}
+#logoimg h1{
+	color: white;
+	font-size: 3.5em;
+	text-align: center;
+	margin: 0;
+	text-shadow: 2px 2px 5px #000;
+}
+#logoimg p{
+	text-align: center;
+	color: white;
+	margin: 0;
+	text-shadow: 2px 2px 5px #000;
+}
+footer{
+  text-align: center;
+  margin-top: 50px;
+}

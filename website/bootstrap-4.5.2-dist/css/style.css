@@ -1,0 +1,119 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	background-color: #ffffff;
+}
+#header-nav{
+	padding-left: 30px;
+	background-color: #1E3787;
+}
+#imgdet{
+	height: 100px;
+	width: 100px;
+	margin: 0;
+	border: 0;
+}
+.navbar-brand{
+	font-size: 50px;
+	color: white;
+	align-items: right;
+	font-family: 'David Libre', serif;
+}
+.navbar-brand h1{
+	margin: 0;
+}
+.navbar-brand p{
+	padding-top: 0px;
+	font-size: 0.35em;
+}
+.formstyle{
+	color: white;
+}
+.formstyle td{
+	padding-right: 50px;
+	padding-bottom: 15px;
+}
+.formstyle td input{
+	height: 35px;
+	width: 270px;
+	border-radius: 5px;
+}
+button{
+	border-radius: 5px;
+	font-size: 1.2em;
+	background-color: white;
+	width: 120px;
+	height: 40px;
+	margin: auto auto auto 180px;
+	transition: .2s;
+}
+button:hover{
+	background-color: #49E20E;
+	color: white;
+}
+.bodycontainer{
+	width: 0px;
+	margin-right: 0px;
+	height: 0px;
+}
+img{
+	height: 500px;
+	width: 700px;
+	margin: 70px auto 100px 100px;
+	border: 5px solid #66CD00;
+}
+.vertline{
+	border-left: 5px solid #C0C0C0;
+	border-radius: 3px;
+	height: 600px;
+	margin: 35px auto 100px 850px;
+	position: absolute;
+}
+.cracc{
+	margin: 70px 0 0 900px;
+	border: 2px solid gray;
+	border-radius: 20px;
+	width: 600px;
+	height: 450px
+}
+.cracc table{
+	margin: 30px 0 0 50px;
+}
+.cracc td{
+	padding-right: 50px;
+	padding-bottom: 15px;
+	font-size: 1.2em;
+}
+.cracc td input{
+	height: 35px;
+	width: 270px;
+	border-radius: 5px;
+}
+#confirmpassword{
+	margin: 30px auto auto 240px;
+	text-align: center;
+}
+#createbutton{
+	border-radius: 5px;
+	font-size: 1.2em;
+	background-color: #1E3787;
+	color: white;
+	width: 200px;
+	height: 40px;
+	margin: 30px 0 0 210px;
+	transition: width .2s, height .2s, .2s;
+}
+#createbutton:hover{
+	width: 210px;
+	height: 45px;
+	background-color: #32CD32;
+}
+@media (min-width: 1200px){
+	
+}
+#footerstyle p{
+	text-align: center;
+	margin-top: 50px;
+}

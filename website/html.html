@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body{
+			background-color: #456132;
+		}
+		@media screen and (max-width: 900px) and (min-width: 600px),(min-width: 1100px){
+			div.example{
+				font-size: 50px;
+				padding: 50px;
+				border: 3px solid black;
+			}
+		}
+		@media only screen and (orientation: landscape) {
+   			 body {
+        		background-color: lightblue;
+    			}
+		}
+		@media only screen and (orientation: portrait) {
+    		body {
+        		background-color:purple;
+    			}
+		}
+	</style>
+</head>
+<body>
+<h2>Change the appearance of DIV on different screen sizes</h2>
+<div class="example">Example DIV.</div>
+<p>When the browser's width is between 600 and 900px OR above 1100px, change the appearance of DIV. 
+<strong>Resize the browser window to see the effect</strong>.</p>
+</body>
+</html>

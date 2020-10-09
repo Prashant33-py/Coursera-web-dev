@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+  background-color: #ffffff;
+}
+#header-nav{
+  background-color: #1e3787;
+  display: block;
+}
+#logoimg img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  margin-top: auto;
+}
+#logoimg h1{
+	color: white;
+	font-size: 3.5em;
+	text-align: center;
+	margin: 0;
+	text-shadow: 2px 2px 5px #000;
+}
+#logoimg p{
+	text-align: center;
+	color: white;
+	margin: 0;
+	text-shadow: 2px 2px 5px #000;
+}
+/*END OF HEADER*/
+.login{
+	text-align: center;
+    width: 500px;
+    border: 0;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 65px auto 0 auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login h1{
+	margin-bottom: 20px;
+}
+.formstyle input{
+	border-radius: 5px;
+	width: 400px;
+	height: 40px;
+	margin-bottom: 35px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#showpass{
+	width: 15px;
+	height: 15px;
+}
+#separation{
+	border-top: 1.5px solid gray;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 0;
+}
+.forgotpass:link, .forgotpass:visited{
+	text-decoration: none;
+}
+#buttons{
+	margin-top: 30px;
+}
+#signup:link, #signup:visited {
+	background-color: #f44336;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    transition: .3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 100px;
+  }
+#signup:hover{
+	background-color: #2C5197;
+}
+#loginbutton:link, #loginbutton:visited{
+	background-color: #49E20E;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    transition: .3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+#loginbutton:hover{
+	background-color: #FF5721;
+}

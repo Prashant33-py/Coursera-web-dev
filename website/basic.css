@@ -1,0 +1,10 @@
+p{
+	color: blue;
+	background-color: rgb(0,255,250);
+}
+.special{
+	background-color: yellow;
+	font-style: bold;
+	color: red;
+	font-size: 25px;
+}
