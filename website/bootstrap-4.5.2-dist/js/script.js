@@ -44,15 +44,15 @@
 //   }
 //   )
 
-// function showPassword () {
-//   var pass = document.getElementById("password");
-//   if (pass.type === "password"){
-//     pass.type = "text";
-//   }
-//   else {
-//     pass.type = "password";
-//   }
-// }
+function showPassword () {
+  var pass = document.getElementById("password");
+  if (pass.type === "password"){
+    pass.type = "text";
+  }
+  else {
+    pass.type = "password";
+  }
+}
 
 
 
@@ -79,32 +79,32 @@
 
 //   );
 
-document.addEventListener("DOMContentLoaded", 
-  function(event) {
+// document.addEventListener("DOMContentLoaded", 
+//   function(event) {
 
-    // Unobstrusive event binding
-    document.querySelector("button").addEventListener("click",function(){
+//     // Unobstrusive event binding
+//     document.querySelector("button").addEventListener("click",function(){
 
 
-      // Call server to get the name
-      $ajaxUtils.sendGetRequest("/data/name.json",
-        function (res) {
-          var message = res.firstName + " " +res.lastName
-          if (res.likesChineseFood){
-            message += "likes chinese food";0
-          }
-          else {
-            message += "doesn't like chinese food";
-          }
-          message += " and uses ";
-          message += res.numberOfDisplays;
-          message += " displays for coding";
+//       // Call server to get the name
+//       $ajaxUtils.sendGetRequest("/data/name.json",
+//         function (res) {
+//           var message = res.firstName + " " +res.lastName
+//           if (res.likesChineseFood){
+//             message += "likes chinese food";0
+//           }
+//           else {
+//             message += "doesn't like chinese food";
+//           }
+//           message += " and uses ";
+//           message += res.numberOfDisplays;
+//           message += " displays for coding";
 
-          document.querySelector("content").innerHTML = "<h2>" +message+ "</h2>"
-        });
-    });
-  }
-  );
+//           document.querySelector("content").innerHTML = "<h2>" +message+ "</h2>"
+//         });
+//     });
+//   }
+//   );
 
 
 
