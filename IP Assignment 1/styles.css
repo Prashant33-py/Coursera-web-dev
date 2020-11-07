@@ -1,0 +1,220 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Noto Serif', serif;
+}
+#header-nav{
+	background-color: #C40000;
+	height: 200px;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+}
+.navbar ul{
+	margin-bottom: 0;
+}
+.navbar ul li{
+	text-align: center;
+    width: 31.9%;
+    margin-right: 50px;
+    display: inline-block;
+    font-size: 10px;
+    padding:0;
+}
+.navbar ul li i{
+	display: block;
+ 	margin: 0 auto 10px auto;
+	width: 32px;
+    height: 32px;
+    margin: 10px auto 0;
+    line-height: 32px;
+    text-align: center;
+    font-size: 30px;
+  	margin-top:0;
+  	padding-top:5px;
+}
+.navbar ul li a span{
+	  font-size:15px;
+	  padding:5px 0 10px 0;
+	  display:block;
+	  text-transform:uppercase;
+	  font-family:'Josefin Sans';
+	  letter-spacing:1px;
+}
+#logo h1{
+	font-family: 'Ultra', serif;
+	color: #00A131;
+}
+.searchbar input{
+	border-radius: 5px;
+	border-width: 0;
+	width: 400px;
+	height: 40px;
+	margin-left: 170px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.searchbar a:link, a:visited{
+	background-color: #0098E7;
+    color: #0f0;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    transition: .3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.searchbar a:hover{
+	background-color: #49E20E;
+	color: green;
+}
+@media (max-width: 1410px){
+	.searchbar input{
+		margin: 10px auto 10px auto;
+		border-radius: 5px;
+		border-width: 0;
+		width: 400px;
+		height: 40px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.searchbar a:link, a:visited{
+		background-color: #0098E7;
+	    color: #0f0;
+	    padding: 10px 25px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    border-radius: 3px;
+	    transition: .3s;
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+	}
+	.searchbar a:hover{
+		background-color: #49E20E;
+		color: green;
+	}
+	nav ul{
+		display: flex;
+		list-style-type: none;
+		margin-right: 100px;
+		padding-top: 8px;
+
+	}
+	nav ul li a{
+		padding-right: 50px;
+		text-decoration: none;
+		color: #000;
+	}
+	nav ul li a:hover, a:visited{
+		text-decoration: none;
+		color: #FFF;
+	}	
+}
+@media (max-width: 1249px){
+	#logo h1{
+		font-family: 'Ultra', serif;
+		color: #00A131;
+	}
+	.searchbar input{
+		margin: auto auto auto auto;
+		border-radius: 5px;
+		border-width: 0;
+		width: 400px;
+		height: 40px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.searchbar a:link, a:visited{
+		background-color: #0098E7;
+	    color: #0f0;
+	    padding: 10px 25px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    border-radius: 3px;
+	    transition: .3s;
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+	}
+	.searchbar a:hover{
+		background-color: #49E20E;
+		color: green;
+	}
+	nav ul{
+		position: inherit;
+		list-style-type: none;
+		margin-right: 100px;
+		padding-top: 8px;
+
+	}
+	nav ul li a{
+		padding-right: 50px;
+		text-decoration: none;
+		color: #000;
+	}
+	nav ul li a:hover, a:visited{
+		text-decoration: none;
+		color: #FFF;
+	}	
+}
+@media (max-width: 745px){
+	#header-nav{
+		height: 230px;
+	}
+	.navbar ul{
+		margin: auto;
+	}
+}
+@media (max-width: 644px){
+	#logo h1{
+		margin-left: 80px;
+	}
+}
+@media (max-width: 588px){
+	#header-nav{
+		height: 265px;
+	}
+	.searchbar input{
+		width: 300px;
+	}
+}
+nav ul{
+	display: flex;
+	list-style-type: none;
+	margin-right: 100px;
+	padding-top: 8px;
+
+}
+
+nav ul li a{
+	padding-right: 50px;
+	text-decoration: none;
+	color: #000;
+}
+nav ul li a:hover, a:visited{
+	text-decoration: none;
+	color: #FFF;
+}
+.container{
+	margin-top: 50px;
+	font-family: 'Noto Serif', serif;
+}
+.card-title{
+	text-align: center; 
+}
+.card-footer{
+	text-align: center;
+	margin-bottom: 0;
+}
+hr.solid{
+    border-top: 3px solid #000;
+}
+hr.light{
+	border-top: 2px solid #b9b9b9;
+}
+.float-container {
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}  
