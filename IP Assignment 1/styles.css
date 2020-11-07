@@ -53,9 +53,12 @@
 	margin-left: 170px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.searchbar a{
+	color: blue;
+}
 .searchbar a:link, a:visited{
 	background-color: #0098E7;
-    color: #0f0;
+    color: blue;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
@@ -66,7 +69,7 @@
 }
 .searchbar a:hover{
 	background-color: #49E20E;
-	color: green;
+	color: blue;
 }
 @media (max-width: 1410px){
 	.searchbar input{
@@ -173,6 +176,30 @@
 	}
 	.searchbar input{
 		width: 300px;
+	}
+}
+@media (max-width: 469px){
+	#header-nav{
+		height: 280px;
+	}
+	#logo h1{
+		margin-left: 27px;
+	}
+	.searchbar input{
+		width: 230px;
+	}
+}
+@media (max-width: 406px){
+	#header-nav{
+		width: 120%;
+	}
+	nav ul{
+		text-align: center;
+	}
+}
+@media (max-width: 300px){
+	#header-nav{
+		width: 140%;
 	}
 }
 nav ul{
